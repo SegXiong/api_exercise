@@ -1,4 +1,6 @@
 development:
-  api_key: "<juhe api key>"
+  api_key_weather: "<juhe api key>"
+  api_key_movie: "<juhe api key>"
 production:
-  api_key: "之后布署上production的话，key放这里"
+  api_key_weather: "之后布署上production的话，key放这里"
+  api_key_movie: "之后布署上production的话，key放这里"

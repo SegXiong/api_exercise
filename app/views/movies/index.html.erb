@@ -1,0 +1,16 @@
+<h1>成都今日电影</h1>
+
+<table class="table">
+  <tr>
+    <th>Juhe ID</th>
+    <th>Name</th>
+    <th>Pic</th>
+  </tr>
+  <% @movies.each do |movie|  %>
+    <tr>
+      <td><%= movie.juhe_id %></td>
+      <td><%= movie.name %></td>
+      <td><%= image_tag(movie.pic) %></td>
+    </tr>
+  <% end %>
+</table>
